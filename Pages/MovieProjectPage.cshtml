@@ -1,0 +1,31 @@
+﻿@page
+@model MovieProjectPageModel
+@{
+    ViewData["Title"] = "Movie Theater Project Page";
+}
+<a class="link-light" asp-area"" asp-page="/Projects">Back to Projects</a>
+<h1>Movie Theater Website Project</h1>
+<img class="img-fluid w-100 h-auto" src="images/MovieTheaterProject.png" alt="Movie Theater Project home screen" />
+
+<p class="p-2">
+    In this project I developed a full-stack web application that simulates the website of a movie theater, 
+    built using the ASP.NET Core MVC (Model–View–Controller) framework. My goal was to demonstrate 
+    a strong understanding of the framework by separating presentation, application logic, and data 
+    handling. I implemented full CRUD functionality for the Movies and Auditoriums models, allowing users 
+    to create, view, update, and delete entries directly through the UI. The application also allows 
+    users to assign selected movies to specific auditoriums, as in real life theater scheduling.
+    <br />
+    The application's data is managed and persisted through an integrated SQL database, with which 
+    communication is achieved through LINQ-based queries and strongly-typed models. The database is accessed 
+    exclusively through a dedicated Business Object Layer to ensure secure, maintainable communication 
+    and to prevent Controllers from directly interacting with the database.
+    <br />
+    This project highlights my ability to build data-driven web applications, design relational data 
+    models, and create seamless communication between an MVC application and a SQL database. It also 
+    reflects my practical experience with backend integration and structured application development 
+    within ASP .NET Core.
+</p>
+
+<form action="https://github.com/ForgetfulLlama/Movie-Theater-Project" target="_blank" rel="noopener noreferrer">
+    <button class="rounded-2" type="submit" style="margin:auto; display:block;">View my code</button>
+</form>

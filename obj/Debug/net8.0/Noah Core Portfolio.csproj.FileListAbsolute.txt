@@ -1,0 +1,33 @@
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\appsettings.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.staticwebassets.runtime.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.exe
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.deps.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.runtimeconfig.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.dll
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.pdb
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.AssemblyInfoInputs.cache
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.AssemblyInfo.cs
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.RazorAssemblyInfo.cache
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.RazorAssemblyInfo.cs
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\scopedcss\bundle\Noah Core Portfolio.styles.css
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\scopedcss\projectbundle\Noah Core Portfolio.bundle.scp.css
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.dll
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\refint\Noah Core Portfolio.dll
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.pdb
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\Noah Core Portfolio.genruntimeconfig.cache
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\ref\Noah Core Portfolio.dll
+C:\Users\noahc\source\repos\Noah Core Portfolio\bin\Debug\net8.0\Noah Core Portfolio.staticwebassets.endpoints.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\noahc\source\repos\Noah Core Portfolio\obj\Debug\net8.0\staticwebassets.build.json.cache

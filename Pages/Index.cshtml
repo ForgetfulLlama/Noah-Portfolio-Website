@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Noah Core Games";
+}
+<div>
+    <h1>About Me</h1>
+    <p>Dedicated and motivated professional with a passion for developing engaging, high-quality 
+        applications, particularly in the video game sector. Possessing a solid foundation in software 
+        design and development, complemented by expertise in frameworks such as ASP.NET Core and 
+        proficiency in game engines like Unity. Following the completion of my bachelors degree in Computer
+        Science at the University of Arkansas, I have enhanced my skill set through various side projects 
+        and am now eager to contribute and grow within a team environment, aligning my efforts with the 
+        objectives of the team.</p>
+    <br />
+    <form asp-page-handler="DownloadFile" method="post">
+        <button class="rounded-2" style="margin:auto; display:block;" type="submit">Download my resume</button>
+    </form>
+    <!--<button class="rounded-2" type="button" style="margin:auto; display:block;">View my resume</button>-->
+    <h1>My Skills</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align:center">
+                <img src="images/programming.jpg" alt="Programming symbol" width="100" height="100" />
+                <h5>Programming</h5>
+                <p class="text-muted">
+                    I possess a solid foundational understanding of programming techniques across a variety of 
+                    languages, including C#, C++, Javascript, and Python, among others.
+                </p>
+            </div>
+            <div class="col" style="text-align:center">
+                <img src="images/netcorelogo.jpg" alt="Asp .Net Core logo" width="100" height="100" />
+                <h5>ASP .NET Core</h5>
+                <p class="text-muted">
+                    I possess foundational experience with the ASP .Net Core framework, utilizing it to 
+                    develop the frontend and backend of websites as well as establish communication 
+                    with a SQL server.
+                </p>
+            </div>
+            <div class="col" style="text-align:center">
+                <img src="images/unitylogo.png" alt="Unity logo" width="100" height="100" />
+                <h5 style="white-space:nowrap">Unity Game Engine</h5>
+                <p class="text-muted" style="margin:auto">
+                    I possess a fundamental understanding of designing, developing, and releasing 
+                    games utilizing the Unity Game Engine.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

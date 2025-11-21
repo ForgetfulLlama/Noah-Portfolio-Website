@@ -1,0 +1,27 @@
+﻿@page
+@model PongProjectPageModel
+@{
+    ViewData["Title"] = "Pong Project Page";
+}
+<a class="link-light" asp-area"" asp-page="/Projects">Back to Projects</a>
+<h1>Pong Recreation</h1>
+<img class="img-fluid w-100 h-auto border" src="images/pong.png" alt="Pong screenshot" />
+<br />
+
+<p class="pt-2">
+    In this project, I aimed to replicate the iconic video game <i>Pong</i>. It was the one of the first projects 
+    I undertook while learning to use Unity, and I continued to develop it alongside my studies.
+    As a result, the <i>Pong</i> project served as a continuous 'checkpoint' for me to assess how I
+    could implement my newfound knowledge. Some of the skills I developed while working on this
+    project are: 
+</p>
+<ul>
+    <li>
+        Simulating fundamental physics interactions, such as determining the launch trajectory 
+        of a ball post-collision with a paddle.
+    </li>
+    <li>Developing a computer-controlled opponent to enable single-player gameplay</li>
+</ul>
+<form action="https://noahcore.itch.io/pong" target="_blank" rel="noopener noreferrer">
+    <button class="rounded-2" type="submit" style="margin:auto; display:block;">Click to Play</button>
+</form>

@@ -1,0 +1,43 @@
+﻿@page
+@model ProjectsModel
+@{
+    ViewData["Title"] = "Projects";
+}
+<h1>@ViewData["Title"]</h1>
+
+<style>
+    div.game-preview{border-style: ridge; margin-top:10px; margin-bottom:10px}
+    a.title-link{color: white; text-decoration: none;}
+    a.title-link:hover{color: blue; text-decoration: underline}
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col game-preview text-center">
+            <a asp-area="" asp-page="/CrashTestingProjectPage" class="title-link">
+                <img src="images/crash_testing.png" alt="Crash Testing title screen" width="200" height="150"/>
+                <p class="text-center">Crash Testing</p>
+            </a>
+        </div>        
+        <div class="col game-preview text-center">
+            <a asp-area="" asp-page="/PongProjectPage" class="title-link">
+                <img src="images/pong.png" alt="Pong title screen" width="200" height="150" />
+                <p class="text-center">Pong recreation</p>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col game-preview text-center">
+            <a asp-area="" asp-page="/KittyScrambleProjectPage" class="title-link">
+                <img src="images/kitty_game.png" alt="Kitty Scramble title screen" width="200" height="150" />
+                <p class="text-center">Kitty Scramble</p>
+            </a>
+        </div>
+        <div class="col game-preview text-center">
+            <a asp-area="" asp-page="/MovieProjectPage" class="title-link">
+                <img src="images/MovieTheaterProject.png" alt="Movie Theater Project Home Screen" width="200" height="150" />
+                <p class="text-center">Movie Theater Website Project</p>
+            </a>
+        </div>
+    </div>
+</div>

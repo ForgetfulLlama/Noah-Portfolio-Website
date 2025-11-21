@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Noah Core Portfolio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Noah_Core_Portfolio.styles.css" asp-append-version="true" />
+    <style>
+        body{
+            background-color: gray;
+            color: white;
+        }
+        .main_body{
+            border: 15px solid black;
+            border-radius: 25px;
+            background-color:black;
+        }
+
+        .profile{
+            border-right: 5px solid grey;
+            
+        }
+    </style>
+</head>
+<body style="max-height:300px">
+    <header>
+        <nav class="navbar navbar-expand-sm bg-black navbar-toggleable-sm navbar-dark box-shadow mb-1">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index" style="font-size:30px">Noah Core Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container main_body">
+        <div class="row" style="height:77vh;overflow-y:hidden;">
+            <div class="col text-center profile h-100 overflow-auto">
+                <img class="rounded-2" src="images/profile_pic.jpg" alt="Picture of myself" height="200" width="150"/>
+                <h3 class="display-4" title="test">Noah Core</h3>
+                <p>
+                    Software & Game Developer<br />
+                    <a href="mailto:noah47759@gmail.com">noah47759@gmail.com</a>
+                </p>
+                <div class="row">
+                    <div class="col text-end">
+                        <a href="https://github.com/ForgetfulLlama" target="_blank" rel="noopener noreferrer">
+                            <img class="w-25 h-auto" src="images/Github_logo.webp" alt="Github logo" style="background-color:white"/>
+                        </a>
+                        <p>Github</p>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/noah-core-2aa1a12a1" target="_blank" rel="noopener noreferrer">
+                            <img class="w-25 h-auto" src="images/LinkedIn_logo.png" alt="LinkedIn logo" />
+                        </a>
+                        <p>LinkedIn</p>
+                    </div>
+                    <div class="col text-start">
+                        <a href="https://noahcore.itch.io/" target="_blank" rel="noopener noreferrer">
+                            <img class="w-25 h-auto" src="images/itchio_logo.png" alt="Itch.io logo" />
+                        </a>
+                        <p>Itch.io</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col pb-3 h-100 overflow-auto">
+                <main role="main">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-muted bg-black" style="margin-top:5px;box-shadow: 0 50vh 0 50vh black;">
+        <div class="container">
+            &copy; 2025 - Noah Core Portfolio
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

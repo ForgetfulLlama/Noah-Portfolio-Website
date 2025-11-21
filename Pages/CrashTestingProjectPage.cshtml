@@ -1,0 +1,25 @@
+﻿@page
+@model CrashTestingProjectPageModel
+@{
+    ViewData["Title"] = "Crash Testing Project Page";
+}
+
+<a class="link-light" asp-area"" asp-page="/Projects">Back to Projects</a>
+<h1>Crash Testing</h1>
+
+<img class="img-fluid w-100 h-auto border" src="images/crash_testing.png" alt="Crash Testing title screen" />
+
+
+<p class="pt-2">
+    <i>Crash Testing</i> is an engaging game where players guide a crash-test dummy through a progressively 
+    challenging array of obstacles and platforms, aiming to reach the highest point possible! This marks 
+    my initial endeavor in creating a 3D platformer, during which I explored various concepts, including:
+</p>
+<ul>
+    <li>Transforming the player character model into a ragdoll upon impact with a projectile</li>
+    <li>Implementing checkpoints for player respawn</li>
+    <li>Ensuring data persistence across scenes and sessions</li>
+</ul>
+<form action="https://noahcore.itch.io/crash-testing" target="_blank" rel="noopener noreferrer">
+    <button type="submit" class="rounded-2" style="margin:auto; display:block;">Click to Play</button>
+</form>
